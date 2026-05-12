@@ -4,8 +4,8 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.ejemplo</groupId>
-  <artifactId>validador-primos</artifactId>
+  <groupId>com.grupo4</groupId>
+  <artifactId>Conversor de Unidades</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>
