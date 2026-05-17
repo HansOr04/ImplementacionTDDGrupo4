@@ -33,4 +33,12 @@ public class ConversorUnidadesTest{
     public void deberiaConvertirCentimetrosAMilimetros(){
         assertEquals(20.0, conversor.centimetrosAMilimetros(2.0));
     }
+    @Test
+    public void deberiaConvertirMilimetrosAMetros(){
+        assertEquals(2.0, conversor.milimetrosAMetros(2000.0));
+    }
+    @Test
+    public void deberiaRetornarCeroEnMetrosSiMilimetrosEsCero(){
+        assertEquals(0.0, conversor.milimetrosAMetros(0.0));
+    }
 }

@@ -12,4 +12,8 @@ public class ConversorUnidades{
     public double centimetrosAMilimetros(double cm){
         return cm * 10;
     }
+    public double milimetrosAMetros(double mm){
+        final double MILIMETRO_POR_METRO = 1000.0;
+        return mm/MILIMETRO_POR_METRO;
+    }
 }
