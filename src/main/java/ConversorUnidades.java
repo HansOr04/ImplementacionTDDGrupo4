@@ -9,4 +9,7 @@ public class ConversorUnidades{
         final double CENTIMETRO_POR_METRO = 100.0;
         return centimetros/CENTIMETRO_POR_METRO;
     }
+    public double centimetrosAMilimetros(double cm){
+        return cm * 10;
+    }
 }

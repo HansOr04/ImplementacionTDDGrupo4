@@ -29,4 +29,8 @@ public class ConversorUnidadesTest{
     public void deberiaRetornarCeroEnMetrosSiCentimetrosEsCero(){
         assertEquals(0.0, conversor.centimetrosAMetros(0.0));
     }
+    @Test 
+    public void deberiaConvertirCentimetrosAMilimetros(){
+        assertEquals(20.0, conversor.centimetrosAMilimetros(2.0));
+    }
 }
