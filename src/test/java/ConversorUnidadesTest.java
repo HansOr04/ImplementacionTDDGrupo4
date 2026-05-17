@@ -20,4 +20,13 @@ public class ConversorUnidadesTest{
     public void deberiaRetornarCeroEnMilimetrosSiElInputEsCero(){
         assertEquals(0.0, conversor.metrosAMilimetros(0.0));
     }
+    @Test
+    public void deberiaConvertirCentimetrosAMetros(){
+        assertEquals(1.0, conversor.centimetrosAMetros(100.0));
+    }
+
+    @Test
+    public void deberiaRetornarCeroEnMetrosSiCentimetrosEsCero(){
+        assertEquals(0.0, conversor.centimetrosAMetros(0.0));
+    }
 }
